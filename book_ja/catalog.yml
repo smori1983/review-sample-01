@@ -1,4 +1,6 @@
 PREDEF:
+  - about.re
+  - preface.re
 
 CHAPS:
   - ch01.re
