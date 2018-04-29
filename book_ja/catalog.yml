@@ -1,7 +1,12 @@
 PREDEF:
 
 CHAPS:
-  - book_ja.re
+  - ch01_00.re
+  - ch01_01.re
+  - ch01_02.re
+  - ch02_00.re
+  - ch02_01.re
+  - ch02_02.re
 
 APPENDIX:
 
