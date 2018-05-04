@@ -47,11 +47,14 @@ book_ja/
 - `ch01.re`
 - `ch02.re`
 - `ch03.re`
+- `ch04.re`
+- `ch05.re`
 
 
 ## PDF 生成
 
 `cd book_ja`
+
 `review-pdfmaker config.yml`
 
 `book_ja/book.pdf` が生成される。
