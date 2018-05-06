@@ -6,7 +6,7 @@
  * @<tt>{[column]} は、見出しのオプションなので、@<tt>{config.yml} の @<tt>{toclevel} の値によって、コラムが目次に含まれるかどうかが変わってくる。
  * 終了行の記述（ @<tt>{==[/column]} など）の前には空白行を入れる。
 
-==={ch04.1.1}[column] 見出しレベル3のコラムのタイトル
+===[column]{ch04.1.1} 見出しレベル3のコラムのタイトル
 
 これは見出しレベル3のコラムなので、目次に含まれる。
 
@@ -14,13 +14,13 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 
-==={ch04.1.1}[/column]
+===[/column]
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 
-===={ch04.1.1.1}[column] 見出しレベル4のコラムのタイトル
+====[column]{ch04.1.1.1} 見出しレベル4のコラムのタイトル
 
 これは見出しレベル4のコラムなので、目次に含まれない。
 
@@ -28,7 +28,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 
-===={ch04.1.1.1}[/column]
+====[/column]
 
 
 =={ch04.2} 囲み記事
