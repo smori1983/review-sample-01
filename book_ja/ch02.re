@@ -1,6 +1,6 @@
 = 画像挿入例
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat@<fn>{1}.
 
 //image[figure_2_1][<figure_2_1>のタイトル][scale=0.5]{
     倍率指定。
@@ -16,3 +16,5 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 == 本文中で画像を参照する
 
 本文中で画像を参照する場合、@<tt>$@<img>{figure_2_1}$ と書く → @<img>{figure_2_1} のように番号が自動で挿入される。
+
+//footnote[1][脚注2-1の文章。脚注2-1の文章。脚注2-1の文章。]
