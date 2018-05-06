@@ -1,4 +1,4 @@
-= リード文記述例
+={ch05} リード文記述例
 
 //lead{
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -11,7 +11,7 @@ someone in @<i>{some book}, p. 100.
 記法: @<tt>$//lead{ ... //}$
 
 
-== 節
+=={ch05.1} 節
 
 //lead{
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
