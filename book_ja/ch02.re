@@ -1,20 +1,40 @@
-={ch02} 画像挿入例
+={ch02} 図とテーブルの挿入例
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat@<fn>{1}.
 
-//image[figure_2_1][<figure_2_1>のタイトル][scale=0.5]{
+== 図の挿入
+
+=== 記法
+
+ * 番号をつける図: @<tt>$//image[識別子][キャプション]{ ...(非表示のメモ) //}$
+ * 番号をつけない図: @<tt>$//indepimage[識別子][キャプション（省略化）]{ ...(非表示のメモ) //}$
+
+識別子は、ファイル名から拡張子を除いたもの。
+
+=== 挿入例
+
+==== 番号をつける図
+
+//image[figure_2_1][Figure 2-1 のタイトル][scale=0.5]{
     倍率指定。
     紙幅に対する比率。
 //}
 
-//image[figure_2_2][<figure_2_2>のタイトル][scale=0.5]{
-    <figure_1_2> の説明を書く。
-    <figure_1_2> の説明を書く。
+==== 番号をつけない図 タイトル表示
+
+//indepimage[figure_2_2][Figure 2-2 のタイトル][scale=0.5]{
+    図の説明を書く。
+    図の説明を書く。
 //}
 
+==== 番号をつけない図 タイトル省略
 
-=={ch02.2} 本文中で画像を参照する
+//indepimage[figure_2_3][][scale=0.5]{
+    図の説明を書く。
+    図の説明を書く。
+//}
 
-本文中で画像を参照する場合、@<tt>$@<img>{figure_2_1}$ と書く → @<img>{figure_2_1} のように番号が自動で挿入される。
+=== 本文中で画像を参照する
+
+本文中で画像を参照する場合、@<tt>$@<img>{figure_2_1}$ と書く → @<img>{figure_2_1} のように番号が自動で挿入される@<fn>{1}。
 
 //footnote[1][脚注2-1の文章。脚注2-1の文章。脚注2-1の文章。]
