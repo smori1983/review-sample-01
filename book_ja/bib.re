@@ -1,5 +1,9 @@
 = 参考文献
 
+//bibpaper[beck_et_al_2001][Bech et al 2001]{
+Beck, Kent, et al. The Agile Manifesto. @<tt>{agilemanifesto.org}, February 2001
+//}
+
 //bibpaper[suzuki_2008][Suzuki 2008]{
 Taro Suzuki. Taro Suzuki's book 1, Foo Publisher, 2008
 //}
