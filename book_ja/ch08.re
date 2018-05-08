@@ -4,6 +4,8 @@
 
 @<tt>$//quote{ ... //}$
 
+引用はインデントが多めに設定される。
+
 
 == 文例1
 
@@ -27,13 +29,13 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 //quote{
 We are uncovering better ways of developing software by doing it and helping others do it. Through this work we have come to value:
 
-@<em>{Individuals and interactions} over processes and tools
+@<b>{Individuals and interactions} over processes and tools
 
-@<em>{Working software} over comprehensive documentation
+@<b>{Working software} over comprehensive documentation
 
-@<em>{Customer collaboration} over contract negotiation
+@<b>{Customer collaboration} over contract negotiation
 
-@<em>{Responding to change} over following a plan
+@<b>{Responding to change} over following a plan
 
 That is, while there is value in the items on the right, we value the items on the left mode. (@<bib>{beck_et_al_2001})
 //}
