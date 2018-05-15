@@ -86,6 +86,30 @@
 .	項目省略
 //}
 
+==== 改行あり
 
+表内での改行には @<tt>$@<br>{}$ を使用する。@<tt>${}$ の中は何も記述しない。
+
+//table{
+項目	値1	値2
+--------------------------------------------
+項目1	Lorem ipsum dolor sit amet.@<br>{}consectetur adipiscing elit, sed do eiusmod.	Lorem ipsum dolor sit amet.@<br>{}consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+項目2	Lorem ipsum dolor sit amet, consectetur.@<br>{}adipiscing elit, sed do eiusmod tempor.	Lorem ipsum dolor adipiscing elit.@<br>{}sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+項目3	Lorem ipsum dolor sit adipiscing elit.@<br>{}sed do eiusmod.@<br>{}tempor incididunt dolore magna aliqua.	Lorem ipsum sit amet, ut labore et dolore magna aliqua.
+//}
+
+==== 長めの文章（改行なし）
+
+//table{
+項目	値1	値2
+--------------------------------------------
+項目1	Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.	Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+項目2	Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.	Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+項目3	Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.	Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+//}
+
+==== 表内リスト表示
+
+無理っぽい。
 
 === 本文中で表を参照する
